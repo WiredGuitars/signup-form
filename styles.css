@@ -8,28 +8,45 @@ body {
   display: flex;
 }
 
-
-.image-left {
-  height: 100%;
-  max-width: 450px;
-}
+.image-left,
 .yusuke {
   height: 100%;
   max-width: 450px;
   display: block;
 }
-.odin-text{
-    position: relative;
-    bottom: 60%;
-    font-size: 50px;
-    opacity: .4;
-    background-color: rgb(105, 103, 103);
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.odin-text {
+  position: relative;
+  bottom: 70%;
+  font-size: 50px;
+  opacity: 0.4;
+  background-color: rgb(105, 103, 103);
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.odin-pic{
-    max-height: 10%;
-    max-width: 10%;
+.odin-pic {
+  max-height: 10%;
+  max-width: 10%;
+}
+.image-credit {
+  position: relative;
+  bottom: 20%;
+  left: 2%;
+  width: 150px;
+  text-align: left;
+  color: rgb(247, 9, 9);
+  font-weight: 900;
+}
+.form-and-preamble{
+    color: white;
+}
+.preamble{
+    margin-top: 50px;
+    margin-left: 25px;
+    font-size: 25px;
+}
+form {
+    margin: 50px;
 }
