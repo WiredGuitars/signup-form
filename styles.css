@@ -1,0 +1,35 @@
+html,
+body {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(34, 30, 30);
+  height: 100%;
+  display: flex;
+}
+
+
+.image-left {
+  height: 100%;
+  max-width: 450px;
+}
+.yusuke {
+  height: 100%;
+  max-width: 450px;
+  display: block;
+}
+.odin-text{
+    position: relative;
+    bottom: 60%;
+    font-size: 50px;
+    opacity: .4;
+    background-color: rgb(105, 103, 103);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.odin-pic{
+    max-height: 10%;
+    max-width: 10%;
+}
